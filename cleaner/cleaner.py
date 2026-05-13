@@ -229,7 +229,7 @@ class SceneCleaner:
 
         utils.log_info(f"Fix naming applied to {count} meshes")
 
-    # ── N-gon Detection / Fix ────────────────────────────────────────────────
+    # N-gon Detection / Fix
 
     def detect_ngons(self):
         """Detect faces with more than 4 vertices on all meshes."""
